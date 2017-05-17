@@ -1,0 +1,1 @@
+These are the solutions to the harvardx course cs50 2017.
