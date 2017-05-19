@@ -8,10 +8,6 @@
 	box-sizing: border-box;
 }
 
-.mainframe {
-	display: flex;
-}
-
 .title {
 	font-family: "Arial", sans-serif;
 	font-size: 60px;
