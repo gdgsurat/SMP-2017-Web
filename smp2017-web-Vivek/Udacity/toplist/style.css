@@ -1,0 +1,26 @@
+
+.title{
+	background-color: #6F42AB;
+	color: white;
+	font-size: 65px;
+	margin-left: 1px;
+	margin-right: 1px;
+}
+.app{
+	display: flex;
+}
+*{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.image{
+	max-width: 680px;
+	margin-right: 17px;
+	padding: 2px;
+
+}
+.descrip{
+	max-width: 705px;
+}
