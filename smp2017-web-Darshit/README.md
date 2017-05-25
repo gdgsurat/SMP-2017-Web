@@ -6,6 +6,7 @@ REPO FRAMEWORK:
 		pset3
 		pset4
 		pset5
+		pset6
 	
 	Udacity:
 		portfolio
