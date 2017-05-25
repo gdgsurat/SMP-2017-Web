@@ -1,6 +1,6 @@
 REPO FRAMEWORK:
 	
-	CS50 Solutions:
+	CS50_Solutions:
 		pset1
 		pset2
 		pset3
