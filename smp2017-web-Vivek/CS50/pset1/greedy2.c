@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <cs50.h>
+#include<math.h>
 void main()
 {
 	float f;
@@ -7,8 +8,9 @@ void main()
 		printf("O hai! How much change is owed\n");
 		f=get_float();
 	}while(f<0);
-	float n = roundf(f * 10) / 10;
-	n=n*100;
+	float a = roundf(f * 100) / 100;
+	a=a*100;
+	int n=(int)a;
 	int count=0;
 	if(n>=25)
 	{
