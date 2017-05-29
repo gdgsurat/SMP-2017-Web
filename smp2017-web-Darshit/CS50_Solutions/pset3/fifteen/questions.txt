@@ -1,0 +1,16 @@
+questions.txt
+
+Computer Science 50
+Problem Set 3
+
+0. Besides 4 × 4 (which are Game of Fifteen’s dimensions), what other dimensions does the framework allow?
+Ans. 3*3, 5*5, 6*6, 7*7, 8*8, 9*9
+
+1. With what sort of data structure is the game’s board represented?
+Ans. 2 Dimensional array
+
+2. What function is called to greet the player at game’s start?
+Ans. greet()
+
+3. What functions do you apparently need to implement?
+Ans. init, draw, move, won
