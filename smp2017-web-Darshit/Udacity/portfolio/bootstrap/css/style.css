@@ -1,15 +1,22 @@
 body {
 	font-family: 'Lato', sans-serif;
 	font-weight: 300;
-	font-color: #747704;
 }
 
 .text-super {
-	font-size: 60px;
+	font-size: 65px;
+	font-weight: 100;
+}
+
+.text-super2 {
+	font-size: 50px;
+	font-weight: 400;
+	color: #777777;
 }
 
 .text-thin {
-	font-weight: 100;
+	font-weight: 700;
+	color: #BCBBBB;
 }
 
 img {
@@ -22,5 +29,11 @@ img {
 
 hr {
 	border-width: 8px;
-	border-color: silver;
+	border-color: #BCBBBB;
+}
+
+.link {
+	color: #777777;
+	font-size: 18px;
+	font-weight: 300;
 }
