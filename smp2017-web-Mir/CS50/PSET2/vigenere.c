@@ -29,9 +29,12 @@ int main(int argc, string argv[])
     y=0;
     for (i=0; plain[i]!='\0'; i++)
     {  
+        
         if((plain[i]<91)&&(plain[i]>64)) //between ASCII values of 'A' and 'Z'
         {
-        
+            if(k[y]=='\0')
+                y = 0;
+                
             if(k[y]>95)
             {
                 z = k[y] - 97;
@@ -39,9 +42,7 @@ int main(int argc, string argv[])
             else
             {
                 z = k[y] - 65;
-            }
-            
-            
+            }    
             if((plain[i]+z)>90)
             {
                 x = (plain[i] + z) % 90;
@@ -52,15 +53,18 @@ int main(int argc, string argv[])
             {
                 plain[i] = plain[i] + z;
             }
-            if(k[y]=='\0')
-                y = 0;
-            else
-                y++;
+            y++;
+            
+            
+            
         }
+           
         
         else if((plain[i]<123)&&(plain[i]>96)) //between ASCII values of 'a' and 'z'
         {
-            
+             if(k[y]=='\0')
+                y = 0;
+                
             if(k[y]>95)
             {
                 z = k[y] - 97;
@@ -68,30 +72,23 @@ int main(int argc, string argv[])
             else
             {
                 z = k[y] - 65;
-            }
-            
+            } 
+                
             if(plain[i]+z>122)
             {
-                
-                
-                x = (plain[i] + z) - 122;
-                
-            
+                x = (plain[i] + z) % 122;
                 x = x % 26;
-                
                 plain[i] = 96 + x;
             }
             else
             {
                 plain[i] = plain[i] + z;
             }
-            
-            if(k[y]=='\0')
-                y = 0;
-            else
-                y++;
-            
+            y++;
+             
         }
+        
+        
     }
     
     printf("ciphertext:");
