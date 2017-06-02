@@ -10,7 +10,7 @@ int main(int argc, char* argv[])
         return 1;
     }
     
-    int i,n[20]={0};
+    int i,n[20]={0},ck=0,cq=0;
     char q[20];
     string k=argv[1];
     for(i=0;k[i]!='\0';i++)
@@ -22,6 +22,8 @@ int main(int argc, char* argv[])
     printf("Plaintext: ");
     scanf("%s",q);
     char p[20];
+    
+    
     for(i=0;k[i]!='\0';i++)
     {
         if(k[i]<91)
@@ -33,6 +35,22 @@ int main(int argc, char* argv[])
             n[i]=k[i]-97;
         }
     }
+    
+    for(ck=0;k[ck]!='\0';ck++){}
+    ck++;
+    
+    for(cq=0;q[cq]!='\0';cq++){}
+    cq++;
+    
+    if(ck!=cq)
+    {
+        for(int j=0;i<=cq;i++,j++)
+        {
+            n[i]=n[j];
+        }
+    }
+        
+    
     for(i=0;q[i]!='\0';i++)
     {
        p[i]=n[i]+q[i];
