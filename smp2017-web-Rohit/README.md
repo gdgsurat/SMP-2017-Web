@@ -27,6 +27,7 @@
 <h3>  <li>PSET4</h3>
       <ul>
       <li>whodunit
+      <li>resize
       </ul>
       </ul>
       </ol>
