@@ -4,7 +4,7 @@
 <h2>Table of Contents</h2>
 
 <ol type="1">
-<li><h2>CS50</h2>
+<h2><li>CS50</h2>
       <ul>
             <li><h3>PSET1</h3>
                   <ul>
@@ -30,7 +30,7 @@
                         <li>resize
                   </ul>
       </ul>
-<li><h2>HTML_CSS_Course</h2>
+<h2><li>HTML_CSS_Course</h2>
       <ul>
             <li><h3>Portfolio</h3>
                   <ul>
