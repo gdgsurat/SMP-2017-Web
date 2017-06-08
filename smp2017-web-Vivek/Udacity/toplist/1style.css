@@ -1,0 +1,20 @@
+.title{
+	background-color: darkorange;
+	color: white;
+	font-size: 55px;
+	margin-top: -3PX;
+}
+.app{
+	display: flex;
+}
+.image{
+	max-width: 810px;
+	margin-left: 10px;
+	margin-top: -10px;
+	margin-right: 0px;
+}
+.describe{
+	margin-left: 882px;
+	max-width: 600px;
+	margin-top: 25px;
+}

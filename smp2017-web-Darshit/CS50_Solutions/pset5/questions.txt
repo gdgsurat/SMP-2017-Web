@@ -1,0 +1,44 @@
+0.  What is pneumonoultramicroscopicsilicovolcanoconiosis?
+    An artificial long word said to mean a lung disease caused by inhaling very fine ash and sand dust. It is a 45 character long word, the longest in the pset5 dictionary.
+
+1.  According to its man page, what does getrusage do?
+    getrusage() returns resource usage measures for the processes
+    
+2.  Per that same man page, how many members are in a variable of type struct rusage?
+    16
+    
+3.  Why do you think we pass before and after by reference (instead of by value) to calculate, even though we’re not changing their contents?
+    If we don't pass by reference, the whole struct would be copied and that copy would have been passed, It would take a lot of time and resources.
+    
+4.  Explain as precisely as possible, in a paragraph or more, how main goes about reading words from a file. In other words, convince us that you indeed understand how that function’s for loop works.
+    First the fgetc function reads each character from the input file, and is checked by 3 conditions, one where it is an alphabet or a ' character;
+    one where it is a number, and one at the end of the word. In the first conditions, a character array word[index] is formed which stores the 
+    word character by character, till the length of the word exceeds the given limit(i.e. LENGTH = 45). In the second condition the 
+    isdigit() checks whether the character is a number or not, if it is a number it ends the string there. And finally in the third condition
+    it checks if the index > 0(i.e. the word successfully passed the above 2 conditions without getting index = 0), it ends the word with 
+    the null character and checks whether it is misspelled or not.
+    
+5.  Why do you think we used fgetc to read each word’s characters one at a time rather than use fscanf with a format string like "%s" to read whole words at a time? Put another way, what problems might arise by relying on fscanf alone?
+    If we use fscanf(), we would have to allocate dynamic memory for each string. Also it would load the alphanumeric strings. There is no limit 
+    on the length of the word read by fscanf. Also fscanf writes the string or stores the string in the variable mentioned as the third argument in fscanf
+    function. 
+    
+6.  Why do you think we declared the parameters for check and load as const?
+    Because for 1 run of the program the parameters are not intended to be changed; As for example the dictionary loaded is not intended to be changed until
+    the entire dictionary is loaded, also the word to be checked does not change till the entire check process for that word is completed.
+    
+7.  What data structure(s) did you use to implement your spell-checker? Be sure not to leave your answer at just "hash table," "trie," or the like. Expound on what’s inside each of your "nodes."
+    I used a hash table. Each bucket in the has table had a linked list of node structs. Each node struct contains two members - 1) a char array 
+    called word and 2) a pointer to a new node called next.
+
+8.  How slow was your code the first time you got it working correctly?
+    The thing is i didn't get my code running for many times i thought it should have run. It took a lot of debugging, and finally when it ran correctly
+    it was slow(much much slow). It took about 17 seconds to complete the process for austinpowers.txt.
+    
+9.  What kinds of changes, if any, did you make to your code in order to improve its performance?
+    To improve the performance of my code, i had to change the hash function(got from internet) and also optimized my check function. Also in my first attempt, the load function was 
+    able to load only alternate number of words from the dictionary cutting the size of dicionary to half so i had to make some changes (after thoroughly
+    understanding the fscanf() function) in the load function.
+
+10. Do you feel that your code has any bottlenecks that you were not able to chip away at?
+    I was unable to pass the check50, which eventually was just the error in the counting of the dictionary size.
