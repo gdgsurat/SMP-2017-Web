@@ -1,2 +1,2 @@
-# SMP-2017-Web
-Web Development projects made by students
+Noel Aby Das (U16CO072)
+Udacity/eloquent javascript solutions
