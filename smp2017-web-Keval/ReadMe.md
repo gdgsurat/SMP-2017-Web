@@ -23,6 +23,7 @@
 - ####  PSET2
      <ul>
       1] initials.c<br>
+      2] initials_optional.c<br>
       </ul>
       
       
