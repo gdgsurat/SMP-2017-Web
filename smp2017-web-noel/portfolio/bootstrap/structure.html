@@ -8,12 +8,14 @@
     <link href="https://fonts.googleapis.com/css?family=Lato:100,300" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/style1.css">
+    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
 </head>
 <body>
 <div class="container">
     <div class="row">
         <div class="col-md-6">
-            <img class="title-logo" src="images/udacity-logo.jpg">
+            <img class="title-logo" src="images/udacity-logo.jpg" alt="udacity-logo">
         </div>
         <div class="col-md-6 text-right">
             <h1 class="text-uppercase text-thin text-super">Noel Aby Das</h1>
@@ -24,29 +26,96 @@
         <div class="col-md-12"><hr></div>
     </div>
     <div class="row">
-        <div class="col-md-12"><img src="images/meta.jpg" class="img-responsive" alt="Main image"></div>
+        <div class="col-md-12"><img src="images/meta.jpg" class="img-responsive" alt="Main image" data-toggle="modal" data-target="#main"></div>
     </div>
     <div class="row col-md-12 text-muted"><h2>Featured Work</h2>
     </div>
     <div class="row text-center">
         <div class="col-md-4">
-            <img src="images/appify.jpg" class="img-responsive" alt="appify image">
+            <img src="images/appify.jpg" class="img-responsive" alt="appify image" data-toggle="modal" data-target="#project1">
             <h3 class="text-uppercase">Appify</h3>
             <p>http://github.com/udacity/Appify/</p>
         </div>
         <div class="col-md-4">
-            <img src="images/sunflower.jpg" class="img-responsive" alt="sunflower image">
+            <img src="images/sunflower.jpg" class="img-responsive" alt="sunflower image" data-toggle="modal" data-target="#project2">
             <h3 class="text-uppercase">Sunflower</h3>
             <p>http://github.com/udacity/Sunflower/</p>
         </div>
         <div class="col-md-4">
-            <img src="images/bokeh.jpeg" class="img-responsive" alt="bokeh image">
+            <img src="images/bokeh.jpeg" class="img-responsive" alt="bokeh image" data-toggle="modal" data-target="#project3">
             <h3 class="text-uppercase">Bokeh</h3>
             <p>http://github.com/udacity/Bokeh/</p>
         </div>
     </div>
 
 </div>
-
+<!-- Modal -->
+    <div class="modal fade" id="main" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content" align="center">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="images/meta.jpg">
+                    This was my first project in this class. I learned a lot about HTML and CSS.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content" align="center">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="images/appify.jpg">
+                    This is a modal test for appify label.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- Modal -->
+    <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content" align="center">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="images/sunflower.jpg" >
+                    This is a modal test for sunflower label.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- Modal -->
+    <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content" align="center">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="images/bokeh.jpeg">
+                    This is a modal test for bokeh label.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
