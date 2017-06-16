@@ -1,0 +1,5 @@
+@media only print and (max-width:500px){
+	p{
+		display: none;
+	}
+}

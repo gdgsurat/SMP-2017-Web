@@ -1,0 +1,41 @@
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+
+*{
+	font-family: "Lato", sans-serif;
+}
+
+.logo{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.head-row{
+	border-bottom: 3px solid gray;
+}
+
+.name{
+	font-size: 50px;
+	font-weight: 100;
+	margin-top: 20px;
+}
+
+.tagline{
+	font-weight: 300;
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+
+.line{
+	height: 10px;
+	color: #606368;
+}
+
+.subheader{
+	color: #BCBBBB;
+}
