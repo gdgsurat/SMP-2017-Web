@@ -1,8 +1,6 @@
-var i,j,n=prompt("give a number","");
-
-for(i=0;i<n;i++){
-    for(j=0;j<=i;j++){
-        console.log("# ");
+for(var i=0,n=prompt("give a number","");i<n;i++){
+    for(var j=0,pattern="";j<=i;j++){
+        pattern = pattern + "# ";
     }
-    console.log("\n");
+    console.log(pattern);
 }
