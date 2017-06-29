@@ -1,0 +1,67 @@
+h1{
+	text-align: right;
+}
+*{
+	font-family: 'Lato', sans-serif;
+}
+.row{
+	width: 100%;
+	display: flex;
+}
+.col-1{
+	width: 20%;
+	margin-left: 20px;
+}
+.col-2{
+	width: 80%;
+	
+}
+.row-1{
+	width: 100%;
+}
+.row-2{
+	width: 100%;
+	text-align: right;
+}
+@media only screen and (max-width: 500px)
+{
+	p{
+		display: none;
+	}
+}
+.row-3{
+	width: 100%;
+	border: double;
+	height: 50px;
+	display: flex;
+}
+.col-3{
+	width: 100%
+}
+.col1{
+	width: 20%;
+	border: double;
+	height: 45px;
+	background-color: green;
+}
+.col2{
+	width: 20%;
+	border: double;
+	height: 45px;
+}
+.col3{
+	width: 20%;
+	border: double;
+	height: 45px;
+}
+.col4{
+	width: 20%;
+	border: double;
+	height: 45px;
+}
+.col5{
+	width: 20%;
+	border: double;
+	height: 45px;
+}
+a:hover{background-color: black}
