@@ -4,13 +4,13 @@
 
 ## TABLE OF CONTENTS:
 
-1. **[CS50 SOLUTIONS](https://github.com/gdgsurat/SMP-2017-Web/tree/master/smp2017-web-Vivek/CS50)**
+1. **[CS50 ](https://github.com/gdgsurat/SMP-2017-Web/tree/master/smp2017-web-Vivek/CS50)**
 
-    - [pest1](https://github.com/gdgsurat/SMP-2017-Web/tree/master/smp2017-web-Vivek/CS50/pset1)
-    - [pest2](https://github.com/gdgsurat/SMP-2017-Web/tree/master/smp2017-web-Vivek/CS50/pset2)
-    - [pest3](https://github.com/gdgsurat/SMP-2017-Web/tree/master/smp2017-web-Vivek/CS50/pset3)
-    - [pest4](https://github.com/gdgsurat/SMP-2017-Web/tree/master/smp2017-web-Vivek/CS50/pset4)
-    - [pest5](https://github.com/gdgsurat/SMP-2017-Web/tree/master/smp2017-web-Vivek/CS50/pset5)
+    - [psest1](https://github.com/gdgsurat/SMP-2017-Web/tree/master/smp2017-web-Vivek/CS50/pset1)
+    - [psest2](https://github.com/gdgsurat/SMP-2017-Web/tree/master/smp2017-web-Vivek/CS50/pset2)
+    - [psest3](https://github.com/gdgsurat/SMP-2017-Web/tree/master/smp2017-web-Vivek/CS50/pset3)
+    - [psest4](https://github.com/gdgsurat/SMP-2017-Web/tree/master/smp2017-web-Vivek/CS50/pset4)
+    - [psest5](https://github.com/gdgsurat/SMP-2017-Web/tree/master/smp2017-web-Vivek/CS50/pset5)
 
 2. **[CAPSTONE PROJECT](https://github.com/gdgsurat/SMP-2017-Web/tree/master/smp2017-web-Vivek/Capston%20Project)**
     
