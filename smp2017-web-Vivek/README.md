@@ -1,5 +1,5 @@
 # SMP-2017-WEB ASSIGNMENTS
-___
+
 >These are the solutions for the assignments of **SMP-2017-WEB-FUNDAMENTALS** made by me (Admission No.: U16EC132).
 
 ## TABLE OF CONTENTS:
@@ -35,3 +35,5 @@ ___
 
 ## LICENCE:
 The licence of the above contents are given in [MIT LICENSE](https://choosealicense.com/licenses/mit/)
+
+___
