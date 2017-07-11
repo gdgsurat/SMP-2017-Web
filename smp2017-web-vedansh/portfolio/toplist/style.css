@@ -1,0 +1,11 @@
+.title{
+	position: static;
+	left: 600px;
+}
+.app{
+	display: flex;
+}
+.description{
+	padding: 20px;
+	overflow: auto;
+}

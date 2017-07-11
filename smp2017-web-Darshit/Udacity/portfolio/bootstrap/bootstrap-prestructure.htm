@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+
+<html><head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700,900" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lato:100,200,300" rel="stylesheet">
+  <title>Bootstrap Modal</title>
+</head>
+  <body>
+	<div class="container">
+    <div class="row">
+      <div class="col-md-6"><img src="images/udacity-logo.jpg" alt="LOGO" class="img-responsive"></div>
+      <div class="col-md-6">
+        <h1 class="text-right text-uppercase text-super">Jane Doette</h1>
+        <h3 class="text-right text-uppercase">Front-end Ninja</h3>
+      </div>
+    </div>
+    <hr>
+    <div class="row">
+    <div class="col-md-12">
+      <img src="images/centre-1.jpg" alt="Centre image" class="img-responsive">
+    </div>
+    </div>
+    <div class="row">
+    <div class="col-md-12">
+      <h2 class="text-thin">Featured Work</h2>
+    </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4 text-center">
+        <img src="images/appify.jpg" class="img-responsive fit" data-toggle = "modal" data-target="#appify" alt="Appify">
+        <h1 class="text-super2 text-uppercase">Appify</h1>
+        <p><a href="http://github.com/" class="link">http://github.com/project/appify</a></p>
+      </div>
+      <div class="col-md-4 text-center">
+        <img src="images/sunflower.png" class="img-responsive fit" data-toggle = "modal" data-target="#Sunflower" alt="Sunflower">
+        <h1 class="text-super2 text-uppercase">Sunflower</h1>
+        <p><a href="http://github.com/" class="link">http://github.com/project/sunflower</a></p>
+      </div>
+      <div class="col-md-4 text-center">
+        <img src="images/bokeh.jpg" class="img-responsive fit" data-toggle = "modal" data-target="#Bokeh" alt="Bokeh">
+        <h1 class="text-super2 text-uppercase">Bokeh</h1>
+        <p><a href="http://github.com/" class="link">http://github.com/project/bokeh</a></p>
+      </div>
+    </div>  
+
+<!-- Modal -->
+<div class="modal fade" id="appify" tabindex="-1" role="dialog" aria-labelledby="myModalLabel1">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel1">Appify</h4>
+      </div>
+      <div class="modal-body">
+      <img class = "img-responsive fit" src="images/appify.jpg" alt="Appify">
+        You don't know this gimmick is very sad for the chances of being held in the prison and the high court is not passing the jusgement and i am very confused whether to stay in the jail or escape as i haven't told anybody about the enprisonment.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="Sunflower" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel2">Appify</h4>
+      </div>
+      <div class="modal-body">
+      <img class = "img-responsive fit" src="images/sunflower.png" alt="Sunflower">
+        You don't know this gimmick is very sad for the chances of being held in the prison and the high court is not passing the jusgement and i am very confused whether to stay in the jail or escape as i haven't told anybody about the enprisonment.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="Bokeh" tabindex="-1" role="dialog" aria-labelledby="myModalLabel3">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel3">Appify</h4>
+      </div>
+      <div class="modal-body">
+      <img class = "img-responsive fit" src="images/bokeh.jpg" alt="Bokeh">
+        You don't know this gimmick is very sad for the chances of being held in the prison and the high court is not passing the jusgement and i am very confused whether to stay in the jail or escape as i haven't told anybody about the enprisonment.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+  
+</div></body></html>
