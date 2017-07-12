@@ -1,10 +1,25 @@
+
 *{
 font-family: 'Alegreya Sans', sans-serif;
 }
-@media only screen and (max-width: 500px){
+@media only screen and (max-width: 50px){
     p{
         display: none;
     }
+}
+@media (max-width: @screen-xs) {
+    .signal{
+      font-size: 86%;
+    }
+}
+
+@media (max-width: @screen-sm) {
+    .signal{
+      font-size: 135%;
+    }
+}
+#quote:hover{
+  background-color: #BBFFA3;
 }
 #grad {
   background: red; /* For browsers that do not support gradients */
