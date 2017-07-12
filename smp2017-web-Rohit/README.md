@@ -1,36 +1,41 @@
 # **SMP PROJECT**
 ## -_Rohit Ramesh_
 
-
 ## Table of Contents
 
-## 1.CS50
+## 1.[CS50](https://github.com/gdgsurat/SMP-2017-Web/tree/master/smp2017-web-Rohit/CS50)
 
-###  1.PSET1
-*           hello.c
-*           water.c
-*           mario.c
-*           credit.c
+* ###   PSET1
+    * hello.c
+    * water.c
+    * mario.c
+    * credit.c
 
-###   2.PSET2
-*           caesar.c
-*           initials.c
-*           vigenere.c
+* ###   PSET2
+    * caesar.c
+    * initials.c
+    * vigenere.c
 
-###   3.PSET3
-*           fifteen.c
-*           find.c
+* ###   PSET3
+    * fifteen.c
+    * find.c
 
-###   4.PSET4
-*           whodunit
-*           resize
-*           recover
+* ###   PSET4
+    * whodunit
+    * resize
+    * recover
+
+* ###  PSET5
+
+* ###  PSET6
+    * mario.py
 
 
-##  2.HTML_CSS_Course
+##  2.[HTML_CSS_Course](https://github.com/gdgsurat/SMP-2017-Web/tree/master/smp2017-web-Rohit/HTML_CSS_Course/Portfolio)
 
-###   1.Portfolio
+* ###   Portfolio
+    * Toplist
+    * Framework
+    * Bootstrap
 
-*           Toplist
-*           Framework
-*           Bootstrap
+##  3.[Capstone](https://github.com/gdgsurat/SMP-2017-Web/tree/master/smp2017-web-Rohit/Capstone)
