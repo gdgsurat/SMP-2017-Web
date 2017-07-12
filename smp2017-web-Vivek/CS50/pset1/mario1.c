@@ -2,12 +2,11 @@
 #include<cs50.h>
 void main()
 {
-	printf("Height:")
-	int n=get_int();
-	while(n<0 || n>23){
+	do{
 		printf("Height :");
 		n=get_int();
 	}
+	while(n<0 || n>23);
 	int i,j;
 	for(i=1;i<=n;i++{
 		for(j=i;j<n;j++){
@@ -23,5 +22,4 @@ void main()
 		}
 		printf("\n");
 	}
-}
 }

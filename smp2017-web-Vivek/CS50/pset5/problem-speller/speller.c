@@ -13,8 +13,7 @@
 double calculate(const struct rusage *b, const struct rusage *a);
 
 
-int
-main(int argc, char *argv[])
+int main(int argc, char *argv[])
 {
     // check for correct number of args
     if (argc != 2 && argc != 3)
@@ -179,8 +178,7 @@ main(int argc, char *argv[])
  * Returns number of seconds between b and a.
  */
 
-double
-calculate(const struct rusage *b, const struct rusage *a)
+double calculate(const struct rusage *b, const struct rusage *a)
 {
     if (b == NULL || a == NULL)
         return 0;
