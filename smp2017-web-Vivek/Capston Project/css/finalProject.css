@@ -1,0 +1,88 @@
+
+*{
+font-family: 'Alegreya Sans', sans-serif;
+}
+@media only screen and (max-width: 50px){
+    p{
+        display: none;
+    }
+}
+@media (max-width: @screen-xs) {
+    .signal{
+      font-size: 86%;
+    }
+}
+
+@media (max-width: @screen-sm) {
+    .signal{
+      font-size: 135%;
+    }
+}
+#quote:hover{
+  background-color: #BBFFA3;
+}
+#grad {
+  background: red; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left top, #FF6351, yellow); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom right, #FF6351, yellow); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom right, #FF6351, yellow); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right, #FF6351, yellow); /* Standard syntax */
+}
+body {
+  overflow-x: hidden; /* Prevent scroll on narrow devices */
+}
+.container-fluid{
+    margin-top: 25px;
+}
+a.ex:hover{
+    font-size: 150%;
+}
+.carousel-inner{
+    border: black 4px solid;
+  width:100%;
+  max-height: 625px !important;
+}
+.carousel-caption {
+   position: absolute;
+   top:150px
+}
+.firsttitle{
+    background-color: #D2F7FF;
+    display: inline-block;
+    font-size: 250%;
+    border-bottom: 4px solid black;
+}
+hr{
+   border: 3px solid #747704;
+}
+.welcome{
+    font-size: 550%;
+}
+li.dropdown:hover > .dropdown-menu {
+    display: block;
+}
+.space{
+    margin-top: 150px;
+}
+div.aims:hover{
+    background-color: red;
+}
+.btn-default {
+      border-radius: 0;
+}
+footer {
+    width: 100%;
+    height: 100px;
+    bottom: 0;    
+}
+.img:hover{
+    top: -10px;
+}
+.img{
+  position: relative;
+  top: 0;
+  transition: top ease 0.3s;
+}
+.names:hover{
+    background-color: #D5EFFF;
+}

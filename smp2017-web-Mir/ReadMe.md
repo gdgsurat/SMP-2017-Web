@@ -5,4 +5,4 @@
     - PSET1
     - PSET2
     - PSET3
-  - Udacity
+  - Capstone Project

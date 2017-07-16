@@ -1,47 +1,41 @@
-<h1><B><u>SMP PROJECT</u></B></h1>
-<h2>-Rohit Ramesh</h2><br>
+# **SMP PROJECT**
+## -_Rohit Ramesh_
 
-<h2>Table of Contents</h2>
+## Table of Contents
 
-<ol type="1">
-<h2><li>CS50</h2>
-      <ul>
-            <li><h3>PSET1</h3>
-                  <ul>
-                        <li>hello.c
-                        <li>water.c
-                        <li>mario.c
-                        <li>credit.c
-                  </ul>
-            <li><h3>PSET2</h3>
-                  <ul>
-                        <li>caesar.c
-                        <li>initials.c
-                        <li>vigenere.c
-                  </ul>
-            <li><h3> PSET3</h3>
-                  <ul>
-                        <li>fifteen
-                        <li>find
-                  </ul>
-            <li><h3>PSET4</h3>
-                  <ul>
-                        <li>whodunit
-                        <li>resize
-                  </ul>
-      </ul>
-<h2><li>HTML_CSS_Course</h2>
-      <ul>
-            <li><h3>Portfolio</h3>
-                  <ul>
-                        <li>Toplist
-                        <li>Framework
-                        <li>Bootstrap
-                  </ul>
-      </ul>
+## 1.[CS50](https://github.com/gdgsurat/SMP-2017-Web/tree/master/smp2017-web-Rohit/CS50)
+
+* ###   PSET1
+    * hello.c
+    * water.c
+    * mario.c
+    * credit.c
+
+* ###   PSET2
+    * caesar.c
+    * initials.c
+    * vigenere.c
+
+* ###   PSET3
+    * fifteen.c
+    * find.c
+
+* ###   PSET4
+    * whodunit
+    * resize
+    * recover
+
+* ###  PSET5
+
+* ###  PSET6
+    * mario.py
 
 
-</ol>
+##  2.[HTML_CSS_Course](https://github.com/gdgsurat/SMP-2017-Web/tree/master/smp2017-web-Rohit/HTML_CSS_Course/Portfolio)
 
+* ###   Portfolio
+    * Toplist
+    * Framework
+    * Bootstrap
 
-
+##  3.[Capstone](https://github.com/gdgsurat/SMP-2017-Web/tree/master/smp2017-web-Rohit/Capstone)
