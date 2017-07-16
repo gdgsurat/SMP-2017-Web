@@ -1,0 +1,32 @@
+1.   What’s stdint.h?
+ans:  This header defines a set of integral type aliases with specific width requirements,
+      along with macros specifying their limits and macro functions to create values of these types.
+
+2.  What’s the point of using uint8_t, uint32_t, int32_t, and uint16_t in a program?
+ans.  These are modified data types specifying width of 8,16 and 32 bits, either signed or unsigned.
+
+3.  How many bytes is a BYTE, a DWORD, a LONG, and a WORD, respectively?
+ans. 1 , 4 , 4 , 2.
+
+4.  What (in ASCII, decimal, or hexadecimal) must the first two bytes of any BMP file be? Leading bytes used to identify file formats (with high probability) are generally called "magic numbers."
+ans:  0x4D42
+
+5.  What’s the difference between bfSize and biSize?
+ans: bfsize represents the size, in bytes, of the bitmap file and bisize represents number of bytes required by the structure.
+
+6.  What does it mean if biHeight is negative?
+ans: Represents top-down bitmap with top-left as origin.
+
+
+7.  Why is the third argument to fread always 1 in our code?
+ans: One bit is scanned at a time.
+
+8.  What value does line 65 of copy.c assign to padding if bi.biWidth is 3?
+ans: 3
+
+9.  What does fseek do?
+ans: Used to move file pointer position to the given location.
+
+10. What is SEEK_CUR?
+ans: It moves file pointer position to the current location.
+
