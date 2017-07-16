@@ -14,7 +14,7 @@
     - [psest6](https://github.com/gdgsurat/SMP-2017-Web/tree/master/smp2017-web-Vivek/CS50/pset6)
     - [psest7](https://github.com/gdgsurat/SMP-2017-Web/tree/master/smp2017-web-Vivek/CS50/pset7)
 2. **[CAPSTONE PROJECT](https://github.com/gdgsurat/SMP-2017-Web/tree/master/smp2017-web-Vivek/Capston%20Project)**
-
+    - **Look at [Website](https://vivekagal1998.github.io/)**
 
 3. **[ELOQUENT JAVASCRIPT](https://github.com/gdgsurat/SMP-2017-Web/tree/master/smp2017-web-Vivek/Eloquent%20JavaScript/Ex-1)**
 
