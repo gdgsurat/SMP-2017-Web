@@ -1,20 +1,59 @@
-
 *{
 font-family: 'Alegreya Sans', sans-serif;
+box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
 }
-@media only screen and (max-width: 50px){
-    p{
-        display: none;
+.welcome{
+    font-size: 400%;
+}
+.lookover{
+  margin-top: 70px;
+}
+iframe{
+  height: 570px;
+}
+.heading{
+      display: block;
+}
+@media (max-width: 550px){
+    nav ul li{
+      box-sizing: border-box;
+      width: 100%;
+      text-align: left;
+    } 
+    iframe{
+      width: 100%;
+      height: 350px;
     }
-}
-@media (max-width: @screen-xs) {
-    .signal{
+    div.signal{
       font-size: 86%;
     }
+    .heading{
+      display: none;
+      width: 100%;
+      padding: 5px;
+    }
+    .mission{
+      margin-top: 15px;
+    }
+    div h1.welcome1{
+      font-size: 300%;
+    }
+    div h1 marquee{
+      display: block;
+    }
+    .resp{
+      margin-top: 75px;
+    }
+    .lookover{
+      margin-top: 100px;
+    }
 }
-
-@media (max-width: @screen-sm) {
-    .signal{
+@media (min-width:950px; ) {
+    div.signal{
       font-size: 135%;
     }
 }
@@ -51,12 +90,10 @@ a.ex:hover{
     display: inline-block;
     font-size: 250%;
     border-bottom: 4px solid black;
+    padding: 10px;
 }
 hr{
    border: 3px solid #747704;
-}
-.welcome{
-    font-size: 550%;
 }
 li.dropdown:hover > .dropdown-menu {
     display: block;
@@ -85,4 +122,8 @@ footer {
 }
 .names:hover{
     background-color: #D5EFFF;
+}
+nav ul{
+  background-color: #3A75D6;
+  font-weight: 400;
 }
