@@ -1,0 +1,82 @@
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.header {
+    text-align: right;
+    font-family: 'Coustard', serif;
+
+}
+.jain {
+    font-size: 60px;
+    color: #f5410f;
+}
+
+.name {
+    font-size: 50px;
+    color: #349905;
+}
+.nav {
+    font-size: 25px;
+    color: #7f09ad;
+}
+.menu {
+    text-align: center;
+    background-color: #8ef562;
+    font-size: 200%;
+    text-decoration: none;
+    color: white;
+    font-family: 'Merriweather', serif;
+
+}
+.margin {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.pro {
+    color: #BCBBBB;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.intro {
+    font-family: 'Bitter', serif;
+    text-align: justify;
+    font-size: 18px;
+}
+.address {
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 15px;
+    font-size: 20px;
+}
+.addr {
+    font-size: 32px;
+    color: black;
+    padding-right: 5px;
+    background-image: url(back.png);
+    background-repeat: no-repeat;
+    height: 40px;
+}
+.strip {
+    background-color: rgb(43, 46, 49);
+}
+.strhead {
+    font-size: 25px;
+}
+.foot {
+    background-color: #808080;
+    color: #fff;
+    margin-right: 20px;
+    margin-left: 20px;
+
+}
+.container {
+    background-color: #E8FFE4;
+}
+.blank {
+    background-color: #E8FFE4;
+    margin-right: 20px;
+    margin-left: 20px;
+}

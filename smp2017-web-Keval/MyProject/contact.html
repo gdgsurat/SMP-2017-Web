@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Jain</title>
+    <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="design.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8"/>
+    <link href="https://fonts.googleapis.com/css?family=Amaranth|Bitter|Chewy|Coustard|Domine|Itim|Kalam|McLaren|Merriweather|Rambla|Open+Sans" rel="stylesheet">
+    <style>
+      #map {
+        height: 400px;
+        width: 100%;
+       }
+    </style>
+</head>
+
+
+
+
+<body>
+<div class="container">
+
+    <div class="top row"><br>
+    </div>
+    <div class="row blank"><br>
+    </div>
+
+    <div class="row margin header">
+        <div class="col-md-2"><img src="logo.png" class="img-responsive" alt="logo"></div>
+        <div class="col-md-4"></div>
+        <div class="col-md-6 header">
+            <div class="name"><span class="jain">JAIN</span> Agro Center</div>
+            <div class="nav">Dhanyakumar Waykos</div>
+        </div>
+    </div>
+
+
+    <div class="row menu margin">
+        <div class="col-md-3"><a href="home.html">Home</a></div>
+        <div class="col-md-3"><a href="about.html">About Us</a></div>
+        <div class="col-md-3"><a href="products.html">Products</a></div>
+        <div class="col-md-3"><a href="contact.html" style="text-decoration: none; color: white;">Contact Us</a></div>
+    </div>
+
+
+ <hr class="margin">
+
+
+        <div class="row margin">
+            <div class="col-md-6 addr">Address</div>
+            <div class="col-md-6 addr">Contact</div>
+        </div>
+        <div class="row margin">
+            <div class="col-md-6">
+                <p class="address">
+                Jain Agro Center,<br>
+                At Post Warud Bk.,<br>
+                Tq. Jafrabad,<br>
+                Dist. Jalna,<br>
+                Maharashtra,<br>
+                India.<br>
+                </p>
+            </div>
+
+            <div class="col-md-6">
+                <p class="address">
+                <strong>Shri. Dhanyakumar Waykos,</strong><br>
+                Mob. +919423731911,<br>
+                &#160&#160&#160&#160&#160&#160&#160&#160&#160&#160+917588854710.<br>
+                </p>
+            </div>
+        </div>
+        <div class="row margin">
+            <div class="col-md-6 addr">Our Location</div>
+        </div>
+        <div class="row margin"><br>
+            <div id="map"></div><br>
+        </div>
+
+
+
+
+    <script>
+      function initMap() {
+        var jain = {lat: 20.256342, lng: 76.129745};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 18,
+          center: jain
+        });
+        var marker = new google.maps.Marker({
+          position: jain,
+          map: map
+        });
+      }</script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBcg4OnbT3bfXyEBWmpLxA9-ZjKQd3I2O4&callback=initMap"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script type="text/javascript" src="bootstrap.min.js"></script>
+
+
+    <div class="row margin strip" style="padding-bottom: 5px;">
+        <br>
+        <div class="col-md-4">
+            <span style="color: white" class="strhead">About Us</span>
+            <hr>
+            <p style="color: #a0a0a0; padding-left: 8px">We M/s Jain Agro Center, work in Varud for the improvement of agricultural science. We provide fertilizers, seeds, pesticides....
+            </p>
+            <button type="button" onclick="window.location.href='about.html'">read more</button>
+        </div>
+        <div class="col-md-4">
+            <span class="strhead"style="color: white">Quick Links</span>
+            <hr>
+            <p style="color: #a0a0a0; padding-left: 8px">
+            <a href="home.html" style="text-decoration: none; color: #a0a0a0;">Home</a><br>
+            <a href="about.html" style="text-decoration: none; color: #a0a0a0;">About Us</a><br>
+            <a href="products.html" style="text-decoration: none; color: #a0a0a0;">Products</a><br>
+            <a href="contact.html" style="text-decoration: none; color: #a0a0a0;">Contact Us</a><br>
+            </p>
+        </div>
+        <div class="col-md-4">
+            <span class="strhead" style="color: white">Contacts</span>
+            <hr>
+            <p style="color: #a0a0a0; padding-left: 8px">
+                dhanyakumarwaykos108@gmail.com<br>
+                9423731911<br>
+                Jain Agro Center,<br>
+                At Post Warud Bk.,<br>
+                Jafrabad,
+                Jalna.
+            </p>
+            <a href="contact.html" style="color: #df2027">view details...</a>
+        </div>
+    </div>
+    <div class="foot row">
+        <div class="col-md-6">
+        </div>
+        <div class="col-md-5" style="text-align: right">
+            <br>
+            <p>Designed by Keval.</p>
+        </div>
+        <div class="col-md-1"></div>
+    </div>
+</div>
+</body>
+</html>
+
